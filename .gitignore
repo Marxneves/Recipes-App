@@ -24,6 +24,12 @@ yarn-error.log*
 
 .vscode
 
+cypress*
+cypress/
 cypress/screenshots/
 cypress/videos/
 cypress/reports
+
+.*
+pull*
+reporter*
