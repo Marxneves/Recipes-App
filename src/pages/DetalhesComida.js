@@ -227,7 +227,7 @@ function DetalhesComida() {
                 </Link>
                 <Link to={ `/comidas/${idMeal}/in-progress` }>
                   <button
-                    className="finish-recipe"
+                    className="start-recipe"
                     data-testid="start-recipe-btn"
                     type="button"
                     hidden={ isDone }
